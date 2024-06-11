@@ -7,6 +7,10 @@
 
 body {
   background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #topBar {
@@ -45,4 +49,28 @@ body {
   width: 90px;
   border: 1px solid grey;
   border-radius: 5px;
+}
+
+#taskList {
+  width: 307px;
+  margin-left: 33px;
+}
+
+#list {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+li {
+  margin-top: 10px;
+  color: white;
+  list-style: square;
+}
+
+li:hover {
+  text-decoration: line-through;
 }
