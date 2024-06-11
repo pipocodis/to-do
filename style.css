@@ -49,13 +49,17 @@ h3 {
   border-radius: 5px;
 }
 
-#addButton {
+button {
   color: white;
   background-color: #222222;
   height: 24px;
   width: 90px;
   border: 1px solid grey;
   border-radius: 5px;
+}
+
+#taskList {
+  height: 80vh;
 }
 
 #list {
