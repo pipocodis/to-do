@@ -17,6 +17,6 @@ button.addEventListener("click", () => {
   input.focus();
 
   item.addEventListener("click", () => {
-    item.remove();
+    item.style.textDecoration = "line-through";
   });
 });
