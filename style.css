@@ -17,12 +17,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  gap: 5px;
 }
 
 .header {
   font-size: 50px;
   padding-top: 20px;
   color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 13px;
 }
 
 #inputRow {
