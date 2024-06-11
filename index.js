@@ -1,6 +1,7 @@
 const input = document.querySelector("#input");
 const button = document.querySelector("#addButton");
 const list = document.querySelector("#list");
+const clearButton = document.querySelector("#clear");
 
 button.addEventListener("click", () => {
   const inputContent = input.value;
@@ -18,5 +19,9 @@ button.addEventListener("click", () => {
 
   item.addEventListener("click", () => {
     item.style.textDecoration = "line-through";
+  });
+
+  clearButton.addEventListener("click", () => {
+    item.remove();
   });
 });
