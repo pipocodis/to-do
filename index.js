@@ -15,4 +15,8 @@ button.addEventListener("click", () => {
   list.appendChild(item);
 
   input.focus();
+
+  item.addEventListener("click", () => {
+    item.remove();
+  });
 });
