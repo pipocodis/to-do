@@ -38,7 +38,7 @@ body {
   border-radius: 5px;
 }
 
-.add {
+#addButton {
   color: white;
   background-color: #222222;
   height: 24px;
