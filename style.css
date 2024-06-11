@@ -10,7 +10,6 @@ body {
 }
 
 #topBar {
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,4 +19,30 @@ body {
   font-size: 50px;
   padding-top: 20px;
   color: white;
+}
+
+#inputRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+#input {
+  color: white;
+  background-color: #222222;
+  height: 22px;
+  border: 1px solid grey;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.add {
+  color: white;
+  background-color: #222222;
+  height: 24px;
+  width: 90px;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
