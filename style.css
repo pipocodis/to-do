@@ -51,14 +51,8 @@ body {
   border-radius: 5px;
 }
 
-#taskList {
-  width: 307px;
-  margin-left: 33px;
-}
-
 #list {
   display: flex;
-  width: 300px;
   justify-content: center;
   align-items: start;
   flex-direction: column;
@@ -68,7 +62,7 @@ body {
 li {
   margin-top: 10px;
   color: white;
-  list-style: square;
+  list-style: "→ ";
 }
 
 li:hover {
